@@ -18,6 +18,11 @@ var main = function () {
             left: '0px'
         }, 200);
     });
+    $('.article').click(function() {
+    $('.description').hide();
+      
+    $(this).children('.description').show();
+    });
 };
 
 $(document).ready(main);
