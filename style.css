@@ -85,6 +85,7 @@ p {
   padding-left: 7.5%;
   padding-right: 7.5%;
   padding-top: 2%;
+  padding-bottom: 5%;
 }
 
 .articles {
@@ -99,6 +100,7 @@ p {
   border-color: gray;
   font-family: 'Open Sans', sans-serif;
   border-bottom: 1px #e5e5e5 solid;
+  padding: 20px;
 }
 
 .current .item {
@@ -118,6 +120,7 @@ p {
 
 .item .title {
   font-weight: bold;
+  padding-left: 20px;
 }
 
 .item .pubdate {
